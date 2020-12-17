@@ -3,7 +3,7 @@ on:
     branches:
       -master
   schedule:
-    - cron: 0 0 0 L * ? 
+    - cron: 0 */12 * * *
     # 每隔12小时
 jobs:
   update_external_airflow_fork:
